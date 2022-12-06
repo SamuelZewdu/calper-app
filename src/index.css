@@ -1,3 +1,20 @@
+*{
+  /* box-sizing: border-box; */
+  justify-content: center;
+  /* background-image: linear-gradient(79deg, #9d7cd6, #C66fbc 48%, #ebf6ff); */
+}
+
+span{
+  display: block;
+}
+
+.center {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +27,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+calper-div {
+  text-align: center;
 }
